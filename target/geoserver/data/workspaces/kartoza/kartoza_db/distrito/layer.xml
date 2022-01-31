@@ -1,0 +1,16 @@
+<layer>
+  <name>distrito</name>
+  <id>LayerInfoImpl--7910279b:17ea1b6cc6c:-7ffb</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--570ae188:124761b8d78:-7fe0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--7910279b:17ea1b6cc6c:-7ffc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2022-01-28 17:25:21.320 UTC</dateCreated>
+</layer>

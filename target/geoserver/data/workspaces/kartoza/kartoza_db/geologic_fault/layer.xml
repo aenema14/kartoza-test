@@ -1,0 +1,17 @@
+<layer>
+  <name>geologic_fault</name>
+  <id>LayerInfoImpl--7910279b:17ea1b6cc6c:-7ff9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--7910279b:17ea1b6cc6c:-7ff8</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--7910279b:17ea1b6cc6c:-7ffa</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2022-01-28 17:25:45.635 UTC</dateCreated>
+  <dateModified>2022-01-28 17:26:53.55 UTC</dateModified>
+</layer>

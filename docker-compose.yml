@@ -1,0 +1,61 @@
+# docker-compose build
+version: '3.8'
+volumes:
+  postgis-data:
+
+services:
+
+  db:
+    image: kartoza/postgis:14-3.1
+    volumes:
+      - postgis-data:/var/lib/postgresql
+    environment:
+      # If you need to create multiple database you can add coma separated databases eg gis,data
+      - POSTGRES_DB=gis
+      - POSTGRES_USER=docker
+      - POSTGRES_PASS=docker
+      - ALLOW_IP_RANGE=0.0.0.0/0
+      # Add extensions you need to be enabled by default in the DB. Default are the five specified below
+      - POSTGRES_MULTIPLE_EXTENSIONS=postgis,hstore
+    ports:
+      - 5432:5432
+    restart: on-failure
+    healthcheck:
+      test: "exit 0"
+    networks:
+      db_network:
+        ipv4_address: 192.168.55.10
+
+  web:
+    depends_on:
+      - db
+    image: tomcat:9.0
+    volumes:
+      - ./target/geoserver:/usr/local/tomcat/webapps/geoserver
+    ports:
+      - '8082:8080'
+    networks:
+      db_network:
+        ipv4_address: 192.168.55.11
+     
+  php-apache:
+    build: ./php-apache/
+    volumes:
+      - ./html:/var/www/html
+    ports:
+      - 8080:80
+      - 8443:443
+    container_name: web
+    networks:
+      db_network:
+        ipv4_address: 192.168.55.12
+
+networks:
+  db_network:
+    name: db_net
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+        - subnet: 192.168.55.0/24
+          gateway: 192.168.55.1

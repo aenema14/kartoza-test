@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--7910279b:17ea1b6cc6c:-7ffc</id>
+  <name>distrito</name>
+  <nativeName>distrito</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--7910279b:17ea1b6cc6c:-7ffe</id>
+  </namespace>
+  <title>distrito</title>
+  <keywords>
+    <string>features</string>
+    <string>distrito</string>
+  </keywords>
+  <srs>EPSG:5367</srs>
+  <nativeBoundingBox>
+    <minx>281705.8125</minx>
+    <maxx>660798.5625</maxx>
+    <miny>887524.375</miny>
+    <maxy>1242892.5</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-85.99884067736069</minx>
+    <maxx>-82.52748323441872</maxx>
+    <miny>8.022015555505446</miny>
+    <maxy>11.239911080412837</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--7910279b:17ea1b6cc6c:-7ffd</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

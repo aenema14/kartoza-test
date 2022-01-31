@@ -1,0 +1,44 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--7910279b:17ea1b6cc6c:-7ffa</id>
+  <name>geologic_fault</name>
+  <nativeName>geologic_fault</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--7910279b:17ea1b6cc6c:-7ffe</id>
+  </namespace>
+  <title>geologic_fault</title>
+  <keywords>
+    <string>features</string>
+    <string>geologic_fault</string>
+  </keywords>
+  <srs>EPSG:5367</srs>
+  <nativeBoundingBox>
+    <minx>279692.75</minx>
+    <maxx>666301.6875</maxx>
+    <miny>882917.4375</miny>
+    <maxy>1244757.125</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-86.01738283696768</minx>
+    <maxx>-82.47701191549147</maxx>
+    <miny>7.98029307622138</miny>
+    <maxy>11.256782967546837</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--7910279b:17ea1b6cc6c:-7ffd</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
